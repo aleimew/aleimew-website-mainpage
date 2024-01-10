@@ -1,12 +1,18 @@
 import React from 'react';
-import helphim from '../../Assets/helphim.png';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from 'react-router-dom';
+import Home from '../../Pages/home';
 
 const Layout = () => {
     return (
-        <div className="App-layout">
-            <h1>Webpage under construction</h1>
-            <img src={helphim} alt="helphim" />
-        </div>
+        <Router>
+            <Routes>
+                <Route exact path="/aleimew-website-mainpage" element={<Home />} />
+            </Routes>
+        </Router>
     );
 };
 
