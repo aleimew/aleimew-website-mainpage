@@ -31,7 +31,7 @@ export const Titles = styled.div`
     text-align: left;
 `;
 
-export const MyName = styled.h1`
+export const MainTitle = styled.h1`
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: -2rem;
