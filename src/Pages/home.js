@@ -8,7 +8,7 @@ import {
     MyName,
     Headliners,
     Quotes,
-} from './pageElements';
+} from '../Components/PageElements';
 
 const Home = () => {
     return (
