@@ -18,8 +18,8 @@ const Home = () => {
             <LeftSide>
                 <Titles>
                     <MainTitle>Alex Moore</MainTitle>
-                    <Headliners>Pursuing eveything at once. <br />
-                        Help.</Headliners>
+                    <Headliners>Pursuing eveything at once. </Headliners>
+                    <Headliners>Help.</Headliners>
                     <Quotes>"I put my hopes and dreams into this site. You <br />
                         can tell because I made it myself" - Me
                     </Quotes>
@@ -28,7 +28,8 @@ const Home = () => {
 
             <RightSide>
                 <Navbar />
-                <h1>Website under construction</h1>
+                <h1>This section is where all my latestest entries <br />
+                    will be added. To be implimented at a later date.</h1>
                 <img src={helphim} alt="helphim" />
             </RightSide>
         </PageContainer>

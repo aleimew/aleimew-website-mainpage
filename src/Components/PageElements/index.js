@@ -11,7 +11,7 @@ export const PageContainer = styled.div`
 `;
 
 export const LeftSide = styled.div`
-    top: -6rem;
+    top: -12rem;
     right: 13rem;
     position: relative;
     display: flex;
@@ -34,17 +34,17 @@ export const Titles = styled.div`
 export const MainTitle = styled.h1`
     font-size: 5rem;
     font-weight: 700;
-    margin-bottom: -2rem;
+    margin-bottom: -2.5rem;
 `;
 
 export const Headliners = styled.h2`
     font-size: 2rem;
     font-weight: 350;
+    margin-bottom: -2rem;
 `;
 
 export const Quotes = styled.h3`
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
-    margin-top: -1.5rem;
     `;
