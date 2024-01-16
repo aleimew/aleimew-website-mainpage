@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Page = styled.div`
-
+        padding: 0 100px;
     `;
 
 export const PageContainer = styled.div`
@@ -32,9 +32,9 @@ export const Image = styled.img`
     `;
 
 export const LeftSide = styled.div`
-    top: -12px;
-    left: 13px;
-    position: absolute;
+    top: 0 -12rem;
+    right: 0 5rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -43,7 +43,7 @@ export const LeftSide = styled.div`
 `;
 
 export const RightSide = styled.div`
-    position: static;
+    position: relative;
 `;
 
 export const Titles = styled.div`

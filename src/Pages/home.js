@@ -57,7 +57,7 @@ const Home = (props) => {
 
                     <RightSide>
                         <Navbar />
-                        <h1>This section is where all my latest entries
+                        <h1>This section is where all my latest entries <br />
                             will be added. To be implimented at a later date.</h1>
                         <Image src={helphim} alt="helphim" />
                     </RightSide>
