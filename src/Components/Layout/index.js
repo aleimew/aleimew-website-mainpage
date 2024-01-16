@@ -26,7 +26,7 @@ const Layout = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, [])
 
-    const mobile = windowDimension <= 912;
+    const mobile = windowDimension <= 1024;
 
     return (
         <Router>

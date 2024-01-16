@@ -9,6 +9,14 @@ export const Nav = styled.nav`
     z-index: 12;
 `;
 
+export const NavMobile = styled.nav`
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+    text-align: center;
+`;
+
 export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
@@ -18,6 +26,16 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     border-bottom: 3px solid black;
     margin-bottom: -2rem;
+`;
+
+export const NavLinkMobile = styled(Link)`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 3px solid black;
+    margin-bottom: 1rem;
 `;
 
 export const Bars = styled(FaBars)`
@@ -44,5 +62,14 @@ export const NavMenu = styled.div`
 white-space: nowrap; */
     @media screen and (max-width: 768px) {
         display: none;
+    }
+`;
+
+export const NavMenuMobile = styled.div`
+    display flex;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        display: block;
     }
 `;
