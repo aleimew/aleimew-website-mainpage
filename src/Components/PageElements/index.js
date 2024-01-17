@@ -93,3 +93,13 @@ export const QuotesMobile = styled.h3`
     font-style: italic;
     font-weight: 100;
     `;
+
+export const Passage = styled.p`
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    `;
+
+export const BoldText = styled.p`
+        text-weight: 700;
+    `;
