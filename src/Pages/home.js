@@ -6,6 +6,7 @@ import {
     PageContainer,
     PageContainerMobile,
     Image,
+    ImageMobile,
     LeftSide,
     RightSide,
     Titles,
@@ -16,6 +17,7 @@ import {
     HeadlinersMobile,
     Quotes,
     QuotesMobile,
+    Passage,
 } from '../Components/PageElements';
 
 const PrintNameAndQuotes = (mobile) => {
@@ -57,8 +59,8 @@ const Home = (props) => {
 
                     <RightSide>
                         <Navbar />
-                        <h1>This section is where all my latest entries <br />
-                            will be added. To be implimented at a later date.</h1>
+                        <Passage>This section is where all my latest entries <br />
+                            will be added. To be implimented at a later date.</Passage>
                         <Image src={helphim} alt="helphim" />
                     </RightSide>
                 </PageContainer>
@@ -66,10 +68,9 @@ const Home = (props) => {
                 <PageContainerMobile>
                     {PrintNameAndQuotes(mobile)}
                     <Navbar mobile={props.mobile} />
-                    <br />
-                    <h1>This section is where all my latest entries
-                        will be added. To be implimented at a later date.</h1>
-                    <img src={helphim} alt="helphim" />
+                    <Passage>This section is where all my latest entries
+                        will be added. To be implimented at a later date.</Passage>
+                    <ImageMobile src={helphim} alt="helphim" />
                 </PageContainerMobile>
             }
         </Page>

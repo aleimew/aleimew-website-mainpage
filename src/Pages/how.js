@@ -1,6 +1,6 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
-import { Passage, BoldText } from '../Components/PageElements';
+import { Passage, BoldText, MainTitleCentered } from '../Components/PageElements';
 
 const How = () => {
 
@@ -19,7 +19,7 @@ const How = () => {
 
     return (
         <div>
-            <h1>How do you summon me, probably?</h1>
+            <MainTitleCentered>How do you summon me, probably?</MainTitleCentered>
             {PrintPassage()}
 
             <Link to="/aleimew-website-mainpage"> return home</Link>

@@ -1,6 +1,6 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
-import { Passage } from '../Components/PageElements';
+import { Passage, MainTitleCentered } from '../Components/PageElements';
 
 const What = () => {
     const PrintPassage = () => {
@@ -16,7 +16,7 @@ const What = () => {
 
     return (
         <div>
-            <h1>What have I done?</h1>
+            <MainTitleCentered>What have I done?</MainTitleCentered>
             {PrintPassage()}
 
             <Link to="/aleimew-website-mainpage"> return home</Link>

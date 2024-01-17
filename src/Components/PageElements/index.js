@@ -1,7 +1,26 @@
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
+
+
+export const GlobalStyle = createGlobalStyle`
+    // * {
+    //     background-color: darkblue;
+    // }
+`;
+
+export const Base = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    `;
 
 export const Page = styled.div`
-        padding: 0 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     `;
 
 export const PageContainer = styled.div`
@@ -11,7 +30,7 @@ export const PageContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 `;
 
 export const PageContainerMobile = styled.div`
@@ -27,12 +46,29 @@ export const PageContainerMobile = styled.div`
 export const Image = styled.img`
     min-width: 100px;
     min-width: 100px;
-    max-width: window.innerWidth;
-    max-height: window.innerHeight;
+    max-width: window.innerWidth - 100px;
+    max-height: window.innerHeight - 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
     `;
 
+export const ImageMobile = styled.img`
+    min-width: 100px;
+    min-width: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+`;
+
 export const LeftSide = styled.div`
-    top: 0 -12rem;
+    top: 0 12rem;
     right: 0 5rem;
     position: relative;
     display: flex;
@@ -50,9 +86,10 @@ export const Titles = styled.div`
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding-bottom: 20rem;
 `;
 
-export const TitlesMobile = styled.div` 
+export const TitlesMobile = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -62,6 +99,13 @@ export const MainTitle = styled.h1`
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: -2.5rem;
+`;
+
+export const MainTitleCentered = styled.h1`
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: -2.5rem;
+    text-align: center;
 `;
 
 export const MainTitleMobile = styled.h1`
@@ -86,20 +130,23 @@ export const Quotes = styled.h3`
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
-    `;
+`;
 
 export const QuotesMobile = styled.h3`
     font-size: 1rem;
     font-style: italic;
     font-weight: 100;
-    `;
+`;
 
 export const Passage = styled.p`
     font-size: 1.5rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    `;
+    margin-left: 10 %;
+    margin-right: 10 %;
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 2.5rem;
+`;
 
 export const BoldText = styled.p`
-        text-weight: 700;
-    `;
+    text-weight: 700;
+`;

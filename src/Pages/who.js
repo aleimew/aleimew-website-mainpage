@@ -1,5 +1,5 @@
 import react from 'react';
-import { Passage } from '../Components/PageElements';
+import { Passage, MainTitleCentered } from '../Components/PageElements';
 import { Link } from 'react-router-dom';
 
 const Who = () => {
@@ -30,7 +30,7 @@ const Who = () => {
 
     return (
         <div>
-            <h1>Who am I, and why am I like this?</h1>
+            <MainTitleCentered>Who am I, and why am I like this?</MainTitleCentered>
             {PrintPassage()}
 
             <Link to="/aleimew-website-mainpage"> return home</Link>
