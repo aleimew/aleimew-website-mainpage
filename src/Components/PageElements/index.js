@@ -147,6 +147,17 @@ export const Passage = styled.p`
     margin-top: 2.5rem;
 `;
 
+export const Video = styled.iframe`
+    width: 640px;
+    height: 360px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+`;
+
 export const BoldText = styled.p`
     text-weight: 700;
 `;

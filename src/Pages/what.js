@@ -1,8 +1,12 @@
 import react from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Passage, MainTitleCentered } from '../Components/PageElements';
+import { Passage, MainTitleCentered, Video } from '../Components/PageElements';
+import VideoPlayer from '../Components/VideoPlayer';
 
 const What = () => {
+    const [youtubeID] = useState("a1SMgYG8nFQ?si=sfMD23f1OE9yuvdx")
+
     const PrintPassage = () => {
         return (
             <div>
@@ -14,10 +18,31 @@ const What = () => {
         )
     }
 
+    const PrintTempPassage = () => {
+        return (
+            <>
+                <Passage>
+                    Since I'm here, I'm gonna test out this video player by
+                    linking it to this video I edited. In the future, I want to
+                    find a way to host my own video directly on this site, but
+                    this will have to do for now.
+                </Passage>
+            </>
+        )
+    }
+
     return (
         <div>
             <MainTitleCentered>What have I done?</MainTitleCentered>
             {PrintPassage()}
+            {PrintTempPassage()}
+
+            <Video className='video'
+                title='Youtube player'
+                sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
+            </Video>
+
 
             <Link to="/aleimew-website-mainpage"> return home</Link>
         </div>
