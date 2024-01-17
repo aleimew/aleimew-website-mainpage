@@ -1,10 +1,10 @@
 import react from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Passage, MainTitleCentered, Video } from '../Components/PageElements';
+import { Passage, MainTitleCentered, Video, VideoMobile } from '../Components/PageElements';
 import VideoPlayer from '../Components/VideoPlayer';
 
-const What = () => {
+const What = (props) => {
     const [youtubeID] = useState("a1SMgYG8nFQ?si=sfMD23f1OE9yuvdx")
 
     const PrintPassage = () => {
@@ -37,11 +37,19 @@ const What = () => {
             {PrintPassage()}
             {PrintTempPassage()}
 
-            <Video className='video'
-                title='Youtube player'
-                sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-                src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
-            </Video>
+            {!props.mobile ? (
+                <Video className='video'
+                    title='Youtube player'
+                    sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                    src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
+                </Video>
+            ) : (
+                <VideoMobile className='video'
+                    title='Youtube player'
+                    sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                    src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
+                </VideoMobile>
+            )}
 
 
             <Link to="/aleimew-website-mainpage"> return home</Link>

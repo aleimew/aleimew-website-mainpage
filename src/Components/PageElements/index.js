@@ -158,6 +158,17 @@ export const Video = styled.iframe`
     align-items: center;
 `;
 
+export const VideoMobile = styled.iframe`
+    width: 320px;
+    height: 180px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+`;
+
 export const BoldText = styled.p`
     text-weight: 700;
 `;
