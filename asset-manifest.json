@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aleimew-website-mainpage/static/css/main.c301cf94.css",
-    "main.js": "/aleimew-website-mainpage/static/js/main.f6ea4ddb.js",
+    "main.js": "/aleimew-website-mainpage/static/js/main.8dd891d4.js",
     "static/js/787.1a2366be.chunk.js": "/aleimew-website-mainpage/static/js/787.1a2366be.chunk.js",
     "static/media/helphim.png": "/aleimew-website-mainpage/static/media/helphim.a9433a4c1a557c55fea7.png",
     "static/media/logo.svg": "/aleimew-website-mainpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aleimew-website-mainpage/index.html",
     "main.c301cf94.css.map": "/aleimew-website-mainpage/static/css/main.c301cf94.css.map",
-    "main.f6ea4ddb.js.map": "/aleimew-website-mainpage/static/js/main.f6ea4ddb.js.map",
+    "main.8dd891d4.js.map": "/aleimew-website-mainpage/static/js/main.8dd891d4.js.map",
     "787.1a2366be.chunk.js.map": "/aleimew-website-mainpage/static/js/787.1a2366be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c301cf94.css",
-    "static/js/main.f6ea4ddb.js"
+    "static/js/main.8dd891d4.js"
   ]
 }
