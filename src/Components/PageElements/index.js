@@ -150,8 +150,8 @@ export const Passage = styled.p`
 export const Video = styled.iframe`
     min-width: 640px;
     min-height: 360px;
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 3840px;
+    max-height: 2160px;
 
     display: block;
     margin-left: auto;
@@ -163,8 +163,8 @@ export const Video = styled.iframe`
 export const VideoMobile = styled.iframe`
     min-width: 320px;
     min-height: 180px;
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 3840px;
+    max-height: 2160px;
 
     display: block;
     margin-left: auto;
