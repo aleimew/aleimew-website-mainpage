@@ -148,8 +148,10 @@ export const Passage = styled.p`
 `;
 
 export const Video = styled.iframe`
-    width: 640px;
-    height: 360px;
+    min-width: 640px;
+    min-height: 360px;
+    max-width: 1920px;
+    max-height: 1080px;
 
     display: block;
     margin-left: auto;
@@ -159,8 +161,10 @@ export const Video = styled.iframe`
 `;
 
 export const VideoMobile = styled.iframe`
-    width: 320px;
-    height: 180px;
+    min-width: 320px;
+    min-height: 180px;
+    max-width: 1920px;
+    max-height: 1080px;
 
     display: block;
     margin-left: auto;
