@@ -2,18 +2,10 @@ import styled, { createGlobalStyle } from "styled-components";
 
 
 export const GlobalStyle = createGlobalStyle`
-    // * {
-    //     background-color: darkblue;
-    // }
+    * {
+        background-color: darkblue;
+    }
 `;
-
-export const Base = styled.div`
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    `;
 
 export const Page = styled.div`
     width: 100%;
@@ -26,7 +18,6 @@ export const Page = styled.div`
 export const PageContainer = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +27,6 @@ export const PageContainer = styled.div`
 export const PageContainerMobile = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
