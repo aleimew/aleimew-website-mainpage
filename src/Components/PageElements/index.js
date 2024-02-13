@@ -108,7 +108,7 @@ export const MainTitleMobile = styled.h1`
 export const Headliners = styled.h2`
     font-size: 2rem;
     font-weight: 350;
-    margin-bottom: -2rem;
+    margin-bottom: -1.5rem;
 `;
 
 export const HeadlinersMobile = styled.h2`
