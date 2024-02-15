@@ -56,7 +56,7 @@ const Home = (props) => {
                 <PageContainer>
                     <LeftSide>
                         {PrintNameAndQuotes()};
-                        <TextReader text={"https://localhost:3000/test.txt"} />
+                        {/* <TextReader text={"https://localhost:3000/test.txt"} /> */}
                     </LeftSide>
 
                     <RightSide>
