@@ -1,6 +1,7 @@
 import React from 'react';
 import helphim from '../Assets/helphim.png';
 import Navbar from '../Components/Navbar';
+import TextReader from '../Components/TextReader';
 import {
     Page,
     PageContainer,
@@ -55,6 +56,7 @@ const Home = (props) => {
                 <PageContainer>
                     <LeftSide>
                         {PrintNameAndQuotes()};
+                        <TextReader text={"https://localhost:3000/test.txt"} />
                     </LeftSide>
 
                     <RightSide>

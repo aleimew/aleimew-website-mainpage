@@ -1,21 +1,23 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const TextReader = async (e) => {
-    e.preventDefault();
+const TextReader = ({ textFile }) => {
+
+    const [file, setFile] = useState(null);
+
     const reader = new FileReader();
-    reader.onload = async (e) => {
-        const text = (e.target.result);
+    reader.onload = async (textFile) => {
+        const text = (textFile.target.result);
         console.log(text);
-        alert(text);
+        setFile(text);
     };
-    reader.readAsText(e.target.files[0]);
-
+    reader.readAsText(textFile.target.files[0]);
 
     return (
         <div>
-            <p>{text}</p>
+            {file}
         </div>
     );
+
 }
 
 export default TextReader;
