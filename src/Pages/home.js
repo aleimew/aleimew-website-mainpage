@@ -21,6 +21,10 @@ import {
     Passage,
 } from '../Components/PageElements';
 
+// import raw data here. Note file had to be moved from the public folder
+// to somewhere under src so it can be accessed on the server side
+import testDataRaw from '../test.txt';
+
 const PrintNameAndQuotes = (mobile) => {
     return (
         <Page>
@@ -56,7 +60,12 @@ const Home = (props) => {
                 <PageContainer>
                     <LeftSide>
                         {PrintNameAndQuotes()};
-                        {/* <TextReader text={"https://localhost:3000/test.txt"} /> */}
+                        {/* <TextReader text={"https://localhost:3000/test.txt"} /> this is referencing
+                        a file as if from the client. note the protocol is different from the default for 
+                        the app (https vs http) so wouldn't work anyway. the file could be fetched like this, 
+                        but that would happen in the client browser, not on the server which is what
+                        you said you were trying to do.*/}
+                        <TextReader textFile={testDataRaw} />
                     </LeftSide>
 
                     <RightSide>
