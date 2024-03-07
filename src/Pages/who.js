@@ -1,6 +1,8 @@
 import react from 'react';
 import { Passage, MainTitleCentered } from '../Components/PageElements';
 import { Link } from 'react-router-dom';
+import TextReader from '../Components/TextReader';
+import text from '../TextFiles/whoamI.txt';
 
 const Who = () => {
 

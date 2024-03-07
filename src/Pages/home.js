@@ -23,7 +23,7 @@ import {
 
 // import raw data here. Note file had to be moved from the public folder
 // to somewhere under src so it can be accessed on the server side
-import testDataRaw from '../test.txt';
+import testDataRaw from '../TextFiles/test.txt';
 
 const PrintNameAndQuotes = (mobile) => {
     return (

@@ -2,6 +2,7 @@ import react from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Passage, MainTitleCentered, Video, VideoMobile } from '../Components/PageElements';
+import SubNavbarWhat from '../Components/Navbar/subNavbarWhat';
 import VideoPlayer from '../Components/VideoPlayer';
 
 const What = (props) => {
@@ -34,6 +35,8 @@ const What = (props) => {
     return (
         <div>
             <MainTitleCentered>What have I done?</MainTitleCentered>
+            <br />
+            <SubNavbarWhat />
             {PrintPassage()}
             {PrintTempPassage()}
 
