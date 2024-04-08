@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Passage } from '../PageElements';
 
 const TextReader = ({ textFile }) => {
 
@@ -19,6 +20,8 @@ const TextReader = ({ textFile }) => {
     // does is read and decode the file, then call setFile to set the state for the
     // component to display
 
+    //TODO: add different states depending on what gets passed in the file.
+
     fetch(textFile)
         .then(r => r.text())
         .then(text => {
@@ -27,9 +30,9 @@ const TextReader = ({ textFile }) => {
         });
 
     return (
-        <div>
-            {file}
-        </div>
+        <Passage>
+            <nowrap>{file}</nowrap>
+        </Passage>
     );
 
 }

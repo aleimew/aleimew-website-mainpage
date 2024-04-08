@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     * {
         background-color: darkblue;
         color: white;
+        white-space: pre-line;
     }
 `;
 
