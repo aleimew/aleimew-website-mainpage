@@ -1,0 +1,7 @@
+All the things I have worked on will be posted here. This website is still
+a work in progress, so this text will be here for now.
+
+Since I'm here, I'm gonna test out this video player by
+linking it to this video I edited. In the future, I want to
+find a way to host my own video directly on this site, but
+this will have to do for now.
