@@ -17,6 +17,9 @@ const Navbar = (props) => {
                         <NavLink to="/How" activeStyle>
                             How can you summon me, probably?
                         </NavLink>
+                        <NavLink to="/wel" activeStyle>
+                            test
+                        </NavLink>
                     </NavMenu>
                 </Nav>
             ) : (
