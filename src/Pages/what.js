@@ -9,7 +9,7 @@ import LinkReader from '../Components/LinkReader';
 import VideoPlayer from '../Components/VideoPlayer';
 
 const What = (props) => {
-    const [youtubeID] = useState("a1SMgYG8nFQ");
+    const [youtubeID] = useState("bWMyEn-EKCE");
 
     return (
         <div>
@@ -35,8 +35,6 @@ const What = (props) => {
 
             <Passage>
                 Testing out new component here:
-
-
             </Passage>
 
             <LinkReader />
