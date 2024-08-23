@@ -5,10 +5,11 @@ import { Passage, MainTitleCentered, Video, VideoMobile } from '../Components/Pa
 import SubNavbarWhat from '../Components/Navbar/subNavbarWhat';
 import text from "../TextFiles/whatdoIdo.txt";
 import TextReader from '../Components/TextReader';
+import LinkReader from '../Components/LinkReader';
 import VideoPlayer from '../Components/VideoPlayer';
 
 const What = (props) => {
-    const [youtubeID] = useState("a1SMgYG8nFQ?si=sfMD23f1OE9yuvdx");
+    const [youtubeID] = useState("a1SMgYG8nFQ");
 
     return (
         <div>
@@ -31,6 +32,14 @@ const What = (props) => {
                     src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
                 </VideoMobile>
             )}
+
+            <Passage>
+                Testing out new component here:
+
+
+            </Passage>
+
+            <LinkReader />
 
 
             <Link to="/aleimew-website-mainpage"> return home</Link>
