@@ -9,7 +9,7 @@ import Home from '../../Pages/home';
 import What from '../../Pages/what';
 import Who from '../../Pages/who';
 import How from '../../Pages/how';
-import Test from '../../TestComponents/DjangoTest';
+import Test from '../../Pages/test';
 
 const Layout = () => {
     const [windowDimension, setWindowDimension] = useState(null);
@@ -36,7 +36,7 @@ const Layout = () => {
                 <Route path="/What" element={<What mobile={mobile} />} />
                 <Route path="/Who" element={<Who mobile={mobile} />} />
                 <Route path="/How" element={<How mobile={mobile} />} />
-                <Route path="/wel" />
+                <Route path="/Test" element={<Test mobile={mobile} />} />
             </Routes>
         </Router>
     );

@@ -14,8 +14,8 @@ const What = (props) => {
         <div>
             <MainTitleCentered>What have I done?</MainTitleCentered>
             <br />
-            <SubNavbarWhat />
-
+            {//<SubNavbarWhat />}
+            }
             <TextReader textFile={text} />
 
             {!props.mobile ? (

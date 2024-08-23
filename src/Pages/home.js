@@ -2,6 +2,8 @@ import React from 'react';
 import helphim from '../Assets/helphim.png';
 import Navbar from '../Components/Navbar';
 import TextReader from '../Components/TextReader';
+import { Link } from 'react-router-dom';
+import DjangoTest from '../TestComponents/DjangoTest';
 import {
     Page,
     PageContainer,
@@ -65,7 +67,9 @@ const Home = (props) => {
                         the app (https vs http) so wouldn't work anyway. the file could be fetched like this, 
                         but that would happen in the client browser, not on the server which is what
                         you said you were trying to do.*/}
-                        <TextReader textFile={testDataRaw} />
+                        <Link to="/Test">
+                            test
+                        </Link>
                     </LeftSide>
 
                     <RightSide>
