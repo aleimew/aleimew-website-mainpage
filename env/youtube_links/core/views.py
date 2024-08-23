@@ -21,11 +21,3 @@ class ReactView(APIView):
         if serializer.is_valid(raise_exception=True): 
             serializer.save() 
             return  Response(serializer.data) 
-    
-    #attempted to make delete function to delete unwanted items 
-    # but its still a work in progress   
-    #def delete(request, id): 
-     #   item = ReactSerializer.object.get(id=id)
-      #  item.delete()
-       # return HttpResponseRedirect(reverse('index'))
-        
