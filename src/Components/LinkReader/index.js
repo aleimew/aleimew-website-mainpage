@@ -32,7 +32,7 @@ class LinkReader extends Component {
             <div>
                 {this.state.details.map((detail, id) => (
                     <div key={id}>
-                        <Passage> {detail.name} </Passage>
+                        <Passage> {detail.namea} </Passage>
                         <Video className='video'
                             title='Youtube player'
                             sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
