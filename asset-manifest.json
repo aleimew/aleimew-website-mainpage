@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/aleimew-website-mainpage/static/css/main.c37b3367.css",
-    "main.js": "/aleimew-website-mainpage/static/js/main.e57e4b0b.js",
+    "main.js": "/aleimew-website-mainpage/static/js/main.83868d7c.js",
     "static/js/453.d4e012ea.chunk.js": "/aleimew-website-mainpage/static/js/453.d4e012ea.chunk.js",
     "static/media/helphim.png": "/aleimew-website-mainpage/static/media/helphim.a9433a4c1a557c55fea7.png",
     "static/media/logo.svg": "/aleimew-website-mainpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aleimew-website-mainpage/index.html",
     "static/media/whoamI.txt": "/aleimew-website-mainpage/static/media/whoamI.3b991cb51f48adf2697d.txt",
     "static/media/whatdoIdo.txt": "/aleimew-website-mainpage/static/media/whatdoIdo.936217d215804c371aa6.txt",
-    "static/media/howdoyousummonme.txt": "/aleimew-website-mainpage/static/media/howdoyousummonme.0f7ef466aa70a0412764.txt",
+    "static/media/howdoyousummonme.txt": "/aleimew-website-mainpage/static/media/howdoyousummonme.65da0f8da9b7376b5bb7.txt",
     "static/media/test.txt": "/aleimew-website-mainpage/static/media/test.e54581015eafe88d3112.txt",
     "main.c37b3367.css.map": "/aleimew-website-mainpage/static/css/main.c37b3367.css.map",
-    "main.e57e4b0b.js.map": "/aleimew-website-mainpage/static/js/main.e57e4b0b.js.map",
+    "main.83868d7c.js.map": "/aleimew-website-mainpage/static/js/main.83868d7c.js.map",
     "453.d4e012ea.chunk.js.map": "/aleimew-website-mainpage/static/js/453.d4e012ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c37b3367.css",
-    "static/js/main.e57e4b0b.js"
+    "static/js/main.83868d7c.js"
   ]
 }
